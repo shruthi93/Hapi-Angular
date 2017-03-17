@@ -1,0 +1,114 @@
+<form method="POST" class="login" role="form" name="form">
+    <fieldset>
+    <h1 class="legend">Create Employee</h1>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="empId" id="empId" class="form-control" placeholder="empId" [(ngModel)]="model.empId" #empId="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="firstName" id="firstName" class="form-control" placeholder="firstName" [(ngModel)]="model.firstName" #firstName="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="lastName" id="lastName" class="form-control" placeholder="lastName" [(ngModel)]="model.lastName" #lastName="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="Date" name="birthDate" id="birthDate" class="form-control" placeholder="birthDate" [(ngModel)]="model.birthDate" #birthDate="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="officialEmail" id="officialEmail" class="form-control" placeholder="officialEmail" [(ngModel)]="model.officialEmail" #officialEmail="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="personalEmail" id="personalEmail" class="form-control" placeholder="personalEmail" [(ngModel)]="model.personalEmail" #personalEmail="ngModel" required>
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="designation" id="designation" class="form-control" placeholder="designation" [(ngModel)]="model.designation" #designation="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="state" id="state" class="form-control" placeholder="state" [(ngModel)]="model.state" #state="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="Date" name="joiningDate" id="joiningDate" class="form-control" placeholder="joiningDate" [(ngModel)]="model.joiningDate" #joiningDate="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="Date" name="leavingDate" id="leavingDate" class="form-control" placeholder="leavingDate" [(ngModel)]="model.leavingDate" #leavingDate="ngModel" required>
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="experience" id="experience" class="form-control" placeholder="experience" [(ngModel)]="model.experience" #experience="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="bloodGroup" id="bloodGroup" class="form-control" placeholder="bloodGroup" [(ngModel)]="model.bloodGroup" #bloodGroup="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="mobileNo" id="mobileNo" class="form-control" placeholder="mobileNo" [(ngModel)]="model.mobileNo" #mobileNo="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="altMobileNo" id="altMobileNo" class="form-control" placeholder="altMobileNo" [(ngModel)]="model.altMobileNo" #altMobileNo="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="bankAccNo" id="bankAccNo" class="form-control" placeholder="bankAccNo" [(ngModel)]="model.bankAccNo" #bankAccNo="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="IdType" id="IdType" class="form-control" placeholder="IdType" [(ngModel)]="model.IdType" #IdType="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="IdNo" id="IdNo" class="form-control" placeholder="IdNo" [(ngModel)]="model.IdNo" #IdNo="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="presentAddress" id="presentAddress" class="form-control" placeholder="presentAddress" [(ngModel)]="model.presentAddress" #presentAddress="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="permanentAddress" id="permanentAddress" class="form-control" placeholder="permanentAddress" [(ngModel)]="model.permanentAddress" #permanentAddress="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="orgId" id="orgId" class="form-control" placeholder="orgId" [(ngModel)]="model.orgId" #orgId="ngModel" >
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" name="password" id="password" class="form-control" placeholder="password"  [(ngModel)]="model.password" #password="ngModel" >
+        </div>
+        <br>
+        <div id="addButton">
+            <button id="addbutton" type="submit" class="btn btn-submit btn-md" (click)="employee(empId.value, firstName.value, lastName.value, birthDate.value,officialEmail.value,personalEmail.value,designation,state.value,joiningDate.value,leavingDate.value,experience.value,bloodGroup.value,mobileNo.value,altMobileNo.value,bankAccNo.value,IdType.value,IdNo.value,presentAddress.value,permanentAddress.value,orgId.value,password.value)">ADD</button>
+        </div>
+    </fieldset>
+</form>
