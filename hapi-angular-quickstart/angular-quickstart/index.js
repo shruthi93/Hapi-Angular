@@ -141,6 +141,11 @@ exports.register = (server, options, next) => {
             method: 'GET',
             path: '/employee',
             config: employee_config
+    },
+     {
+            method: 'POST',
+            path: '/api/v1/employees',
+            config: employee_config
     }
     ]);
 
